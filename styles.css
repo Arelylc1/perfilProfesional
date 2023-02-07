@@ -1,37 +1,248 @@
-html, body{
-    height:100%;
-    margin:0;
-    display: flex;
-    flex-direction: column;
+.container-fluid {
+    
+    position: absolute;
+    width: 788px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+
+    background: #41274A;
 }
 
-/*body{
-    background-color: #d0fdd7!important;
-}*/
-.div1{
-    height: 40%;
-    width: 100%;
-    background-color:white ;
-    justify-content: center;
-    align-content: center;
+.nav-item{
+    font-family: sans-serif;
+    color: white;
+    
+
 }
-.div2{
-    height:50%;
-    width: 100%;
-    background-color: #c0ecec;
-}
-.foto {
-    margin-top: 70pt;
-}
-.rango {
+
+#btn_contacto{
+    position: absolute;
+    width: 123px;
+    height: 30px;
+    left: 1370px;
+    top: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+    text-size-adjust:unset;
     text-align: center;
-    font-size: x-large;
-    font-weight: bold;
-    color: #496363;
+    color: #FFFFFF;
+    background-color: #A586AE;
+    border-radius: 10px;
 }
-.navbar {
-    background-color: #FFDDCE;
+
+.d-flex {
+    position: absolute;
+    width: 100%;
+    height: 491px;
+    left: 0px;
+    top: 48px;
+
+    background: linear-gradient(180deg, #633075 31.16%, rgba(99, 48, 117, 0) 100%);
+    background-blend-mode: multiply;
 }
+
+#img_fondo{
+   margin-left: 198px;
+
+}
+
+#bienvenido{
+    position: absolute;
+    width: 199px;
+    height: 36px;
+    left: 857px;
+    top: 167px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+
+}
+
+.input-group{
+    position: absolute;
+    width: 215px;
+    height: 22px;
+    left: -300px;
+    top: 223px;
+    max-width: 10cm;
+
+    background: #FFFFFF;
+    border-radius: 15px;
+    
+}
+
+.input-group-append{
+    position: absolute;
+    width: 40px;
+    height: 38px;
+    left: 379px;
+    
+    text-align-last:center ;
+    
+    
+    background: #D9D9D9;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.material-symbols-outlined{
+    height: 22px;
+    color: rgb(82, 79, 79);
+}
+
+#btn_name{
+    height: 22px;
+    color: rgb(82, 79, 79);
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 23px;
+    height: 0px;
+    left: 2px;
+    top: 5px;
+    cursor:default;
+
+    
+}
+
+
+.btn-outline-secondary{
+    position: relative;
+    height: 22px;
+}
+
+#link{
+    border-left: 100px;
+
+}
+
+#container_sobre_mi{
+    background-color: #FFFFFF;
+    color: gray;
+    font-size: 25px;
+    position: center;
+    text-align: justify ;
+    width: 80%;
+    height: 10px;
+    border-left: 40px;
+    right: 100px;
+    top: 600px;
+}
+
+.class_sobre, .class_habilidades{
+    color: #633075;
+    font-size: 43px;
+    
+}
+
+#mi{
+    color: #41274A;
+    font-size: 43px;
+    
+}
+
 .footer{
-    height: 60px;
+    background-color:#FFF5FF;
+    width: 100%;
+    padding-top: 0%;
+    text-align: center;
+    
+}
+
+#trabajos{
+    text-align: center;
+    color: #41274A;
+    font-size: 43px;
+}
+#Habilidades{
+    text-align: center;
+    color: #41274A;
+    font-size: 43px;
+    margin-top: 50%;
+}
+
+
+
+.card-group{
+    align-items:normal;
+    padding-top:0px;
+
+}
+
+#titulo_card {
+    color: #41274A;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+
+.title_h{
+    color: #633075;
+}
+
+.card_h{
+    max-width: 450px;
+    margin: 150px;
+    margin-top: 40px;
+    position: relative;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    border-color: #41274A;
+    border-style:solid;
+}
+
+.card-img-top{
+    color: #A586AE ;
+}
+
+.card-title{
+    text-align: center;
+}
+
+
+
+.col-1{
+    text-align: center;
+}
+
+.col-2{
+    text-align: center;
+}
+
+.card-text{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+li{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.card_Portafolio_Proyectos{
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+#card_Proyectos{
+    border-color:#ddbce6;
+    max-width: 450px;
+    margin: 150px;
+    margin-top: 40px;
+    position: relative;
+    flex-wrap: wrap;
+    border-radius: 10px;    
+    border-style:double;
+
+}
+
+.alert-success{
+    text-transform: lowercase;
+    border-color: #41274A;
 }
